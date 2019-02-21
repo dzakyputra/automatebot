@@ -37,11 +37,11 @@ def get_and_save_image():
 
 def send_image(bot, update):
     get_and_save_image()
-    chat_id = '216993313'
+    chat_id = 'CHATI_ID_RECEIVER'
     bot.send_photo(chat_id=chat_id, photo=open('viz.png', 'rb'))
 
 def main():
-    updater = Updater('731229543:AAE2DTuVEBXg9tKVHEob78NHatfa5ADZgBY')
+    updater = Updater('YOUR_TOKEN')
     updater.job_queue.run_daily(send_image, time=datetime.datetime.strptime('9:00AM', '%I:%M%p').time(), days=(0,1,2,3,4,5,6))
     updater.start_polling()
     updater.idle()
