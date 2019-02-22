@@ -2,7 +2,7 @@
 
 Read the full tutorial in my [medium](https://medium.freecodecamp.org/@dzakyputra)
 
-Check the bot in [here](http://telegram.me/automatereportbot).
+Check the bot in [here](http://telegram.me/automatereportbot), type `/send` command to see the example of image visualization.
 
 This bot will automate your reporting task by querying the data to bigquery, doing visualization, and automatically send the image through Telegram Chat.
 
