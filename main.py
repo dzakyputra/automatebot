@@ -37,7 +37,7 @@ def get_and_save_image():
 
 def send_image(bot, update):
     get_and_save_image()
-    chat_id = 'CHATI_ID_RECEIVER'
+    chat_id = 'CHAT_ID_RECEIVER'
     bot.send_photo(chat_id=chat_id, photo=open('viz.png', 'rb'))
 
 def main():
