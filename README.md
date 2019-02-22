@@ -20,7 +20,7 @@ Install the libraries.
 pip3 install google-cloud-bigquery matplotlib numpy pandas python-telegram-bot
 ```
 
-Create a developer account to access Google BigQuery API, you can follow the "Getting Started" steps in [here](https://medium.freecodecamp.org/@dzakyputra)
+Create a developer account to access Google BigQuery API, you can follow the **Getting Started** steps in [here](https://medium.freecodecamp.org/@dzakyputra)
 
 Configure the path.
 ```
