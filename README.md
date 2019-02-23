@@ -31,3 +31,17 @@ Run the program.
 ```
 python3 main.py
 ```
+
+### Edit
+You can customize the query based on your needs.
+
+```
+query = """ 
+           YOUR_QUERY_HERE
+       """
+```
+You can also configure when the bot has to send the image visualization.
+
+```
+updater.job_queue.run_daily(send_image, time=datetime.datetime.strptime('YOUR_TIME', '%I:%M%p').time(), days=(0,1,2,3,4,5,6))
+```
