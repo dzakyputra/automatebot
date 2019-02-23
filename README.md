@@ -37,8 +37,8 @@ You can customize the query based on your needs.
 
 ```
 query = """ 
-           YOUR_QUERY_HERE
-       """
+            YOUR_QUERY_HERE
+        """
 ```
 You can also configure when the bot has to send the image visualization.
 
