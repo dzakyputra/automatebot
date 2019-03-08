@@ -1,6 +1,6 @@
 # automatebot
 
-Read the full tutorial in my [medium](https://medium.freecodecamp.org/@dzakyputra)
+Read the full tutorial in my [medium](https://medium.freecodecamp.org/how-to-build-a-bot-to-automate-your-mindless-tasks-using-python-and-google-bigquery-a34faf7fb74)
 
 Check the bot in [here](http://telegram.me/automatereportbot), type `/send` command to see the example of image visualization.
 
@@ -20,7 +20,7 @@ Install the libraries.
 pip3 install google-cloud-bigquery matplotlib numpy pandas python-telegram-bot
 ```
 
-Create a developer account to access Google BigQuery API, you can follow the **Getting Started** steps in [here](https://medium.freecodecamp.org/@dzakyputra)
+Create a developer account to access Google BigQuery API, you can follow the **Getting Started** steps in [here](https://medium.freecodecamp.org/how-to-build-a-bot-to-automate-your-mindless-tasks-using-python-and-google-bigquery-a34faf7fb74)
 
 Configure the path.
 ```
