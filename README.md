@@ -1,6 +1,6 @@
 # automatebot
 
-Read the full tutorial in my [medium](https://medium.freecodecamp.org/how-to-build-a-bot-to-automate-your-mindless-tasks-using-python-and-google-bigquery-a34faf7fb74)
+Read the full tutorial in my [medium](https://medium.com/free-code-camp/how-to-build-a-bot-to-automate-your-mindless-tasks-using-python-and-google-bigquery-a34faf7fb74?source=friends_link&sk=ffb181a0e8b1710bab27c4662b068dfa)
 
 Check the bot in [here](http://telegram.me/automatereportbot), type `/send` command to see the example of image visualization.
 
